@@ -11,6 +11,9 @@ module.exports = {
       screens: {
         mf: "990px",
       },
+      fontFamily:{
+        audio : "'Audiowide', cursive",
+      },
       keyframes: {
         "slide-in": {
           "0%": {

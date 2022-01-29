@@ -17,20 +17,9 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-4">
-      <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <img src={logo} alt="logo" className="w-32 cursor-pointer" />
+      <div className="flex flex-[0.5] justify-center items-center">
+        <p className="text-white font-audio text-6xl">CRYPTON</p>
       </div>
-      <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
-        {!currentAccount && (<li className=" mx-4 rounded-full cursor-pointer">
-          <button
-            type="button"
-            onClick={connectWallet}
-            className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-full cursor-pointer hover:bg-[#2546bd]"
-          >
-            <p className="text-white text-sm font-semibold">Connect Wallet</p>
-          </button>
-        </li>)}
-      </ul>
       <div className="flex relative">
         {!toggleMenu && (
           <HiMenuAlt4
