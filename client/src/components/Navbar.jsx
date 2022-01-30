@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-4">
       <div className="flex flex-[0.5] justify-center items-center">
-        <p className="text-white font-audio text-6xl">CRYPTON</p>
+        <p className="text-white font-audio text-5xl">CRYPTON</p>
       </div>
       <div className="flex relative">
         {!toggleMenu && (
